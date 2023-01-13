@@ -157,7 +157,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/01/13/zhiyin/" class="post-title-link" itemprop="url">zhiyin</a>
+          <a href="/2023/01/13/zhiyin/" class="post-title-link" itemprop="url">Untitled</a>
         </h2>
 
         <div class="post-meta-container">
@@ -169,7 +169,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2023-01-13 16:00:32 / Modified: 16:06:43" itemprop="dateCreated datePublished" datetime="2023-01-13T16:00:32+08:00">2023-01-13</time>
+      <time title="Created: 2023-01-13 16:00:32 / Modified: 16:12:09" itemprop="dateCreated datePublished" datetime="2023-01-13T16:00:32+08:00">2023-01-13</time>
     </span>
 
   
@@ -182,7 +182,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="前置知识点"><a href="#前置知识点" class="headerlink" title="前置知识点"></a>前置知识点</h2><p>(1) $pi = acos(-1)$;<br>(2) 余弦定理 $c^2 = a^2 + b^2 - 2abcos(t)$</p>
+          <h2 id="title-zhiyin"><a href="#title-zhiyin" class="headerlink" title="title: zhiyin"></a>title: zhiyin</h2><h2 id="前置知识点"><a href="#前置知识点" class="headerlink" title="前置知识点"></a>前置知识点</h2><p>(1) $pi = acos(-1)$;<br>(2) 余弦定理 $c^2 = a^2 + b^2 - 2abcos(t)$</p>
 <h2 id="浮点数的比较"><a href="#浮点数的比较" class="headerlink" title="浮点数的比较"></a>浮点数的比较</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">double</span> eps = <span class="number">1e-8</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">sign</span><span class="params">(<span class="type">double</span> x)</span>  <span class="comment">// 符号函数</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">fabs</span>(x) &lt; eps) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span> (x &lt; <span class="number">0</span>) <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">cmp</span><span class="params">(<span class="type">double</span> x, <span class="type">double</span> y)</span>  <span class="comment">// 比较函数</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">fabs</span>(x - y) &lt; eps) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span> (x &lt; y) <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h2><h3 id="向量的加减法和数乘运算"><a href="#向量的加减法和数乘运算" class="headerlink" title="向量的加减法和数乘运算"></a>向量的加减法和数乘运算</h3><h3 id="内积（点积）"><a href="#内积（点积）" class="headerlink" title="内积（点积）"></a>内积（点积）</h3><p>$A·B = |A||B|cos(C)$</p>
 <h4 id="几何意义："><a href="#几何意义：" class="headerlink" title="几何意义："></a>几何意义：</h4><p>向量 $A$ 在向量 $B$ 上的投影与B的长度的乘积。</p>
